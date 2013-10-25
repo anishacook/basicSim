@@ -1,0 +1,47 @@
+
+Version 1:
+    simulation1.py
+    Takes into accound only: innoculated vs not innoculated
+    Population = 10x10
+
+Version 2:
+    simulation2.py
+    Similar to simulation 1, except more user-friendly and vaccination rate, population size/shape, and whether an infected person can infect up to 4 or 8 people is customizable by user
+
+Version 3:
+    simulation3.py
+    Similar to simulation 2, except more user-friendly, fixes bug with b-type transmission, allows for more generations (but it restarts at printing '0'). fixes bug with end display. informs user of more variables at the end (people who werent vaccinated who did not contract the disease.
+
+Verison 4:
+    simulation4.py
+    Similar to simulation 3, except shows patient zero at the end. fixed list index bug so that probelm is solved by printing '0' instead of breaking
+
+Version 4b:
+    simulation4b.py
+    Same as simulation4, except progresses automatically without user hitting <enter>. better for large simulations, so automatic dimensions are set larger(60X60). note that it can be harder to watch direction as disease progresses, so better for simply seeing end product. 
+
+Version 5:
+    simulation5.py
+    Simulation 4 but in color!
+    NOTE: may not work in windows
+
+Version 5b:
+    simulation5b.py
+    Simulation 4b but in color!
+
+Version 6:
+    simulation6.py
+    simulation 4b but does NOT print out the board every generation. note that it is very difficult to follow course of epidemic because generations start over at 0-9, a-b
+
+Version 7:
+    simulation7.py
+    simulation 7 but DOES print out the board every generation. essentially a more user-friendly and color-improved version of 5b. note that color makes it much slower than 4b
+
+Version 7b:
+    simulation7b.py
+    simulation 7 but the instances are not colored, only the end pattern. faster runtime while still printing steps
+
+Best versions:
+Version 4: if user wants to manually progress (DOES NOT REQUIRE TERMCOLOR)
+Version 7: if user does not want to manually progress (REQUIRES TERMCOLOR)
+Version 6: if user only wants to see end product (REQUIRES TERMCOLOR)
